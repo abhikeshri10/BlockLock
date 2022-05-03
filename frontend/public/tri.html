@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>React App</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <div class="main-wrapper">
+        <section class="section section-search-1">
+            <div class="container">
+                <header class="header">
+                    <nav class="navbar navbar-expand-lg header-nav nav-transparent">
+                        <div class="navbar-header">
+                            <a href="#0" id="mobile_btn">
+                            </a>
+                            <a href="#0" id="menu_close" class="menu-close">
+                                <i class="fas fa-times">
+
+                                </i>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img class="img-fluid dr-img" src="back...png">
+                            </div>
+                            <div class="col-md-6 search-doctor">
+                                <div class="search-area">
+                                    <h2 class="text-center">Doctor/Patient Login</h2>
+                                    <form class="search-input">
+                                        <div class="row">
+                                            <div class="col-12 col-md-12">
+                                                <div class="form-group">
+                                                    <label>Email</label>
+                                                    <input type="text" class="form-control" value="Enter Email">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-12">
+                                                <div class="form-group">
+                                                    <label>Password</label>
+                                                    <input type="text" class="form-control" value="Enter Password">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="submit-section"><button type="submit"
+                                                class="btn btn-primary search-btn submit-btn">Submit</button></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </section>
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+        <section class="section section-specialities">
+            <div class="container-fluid">
+                <div class="section-header text-center">
+                    <h2>Clinic and Specialities</h2>
+                    <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-9">
+                        <div tabindex="-1" style="width: 100%; display: inline-block;">
+                            <div class="speicality-item text-center">
+                                <div class="speicality-img">
+                                    <span>
+                                        <i class="fa fa-circle" aria-hidden="true">
+                                        </i>
+                                    </span>
+                                </div>
+                                <h4>Cardiologist</h4>
+                                <img src="doc2.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                    <div>
+                        <div tabindex="-1" style="width: 100%; display: inline-block;">
+                            <div class="speicality-item text-center">
+                                <span>
+                                    <i class="fa fa-circle" aria-hidden="true">
+                                    </i>
+                                </span>
+                            </div>
+                            <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true">
+                                <div>
+                                    <div tabindex="-1" style="width: 100%; display: inline-block;">
+                                        <div class="speicality-item text-center">
+                                            <div class="speicality-img">
+                                                <h4>Neurology</h4>
+                                                <img src="doc1.jpg">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned"
+                                        aria-hidden="true">
+                                        <div>
+                                            <div tabindex="-1" style="width: 100%; display: inline-block;">
+                                                <div class="speicality-item text-center">
+                                                    <div class="speicality-img">
+                                                        <h4>Orthopodic</h4>
+                                                        <img src="doc3.jpg">
+                                                        <br>
+                                                        <div data-index="-1" tabindex="-1"
+                                                            class="slick-slide slick-cloned" aria-hidden="true">
+                                                            <div>
+                                                                <div tabindex="-1"
+                                                                    style="width: 100%; display: inline-block;">
+                                                                    <div class="speicality-item text-center">
+                                                                        <div class="speicality-img">
+                                                                            <br>
+                                                                            <h4>ENT</h4>
+                                                                            <img src="doc4.jpg">
+                                                                            <hr
+                                                                                style="height:2px;border-width:0;color:gray;background-color:gray">
+
+
+                                                                            <footer class="footer">
+                                                                                <div class="footer-top">
+                                                                                    <div class="container-fluid">
+                                                                                        <div class="row">
+                                                                                            <div
+                                                                                                class="col-lg-3 col-md-6">
+                                                                                                <div
+                                                                                                    class="footer-widge footer-about">
+                                                                                                    <div
+                                                                                                        class="footer-logo">
+                                                                                                        <img
+                                                                                                            src="lpas.jpg">
+                                                                                                    </div>
+
+                                                                                                    <div
+                                                                                                        class="footer-about-content">
+                                                                                                        <p>
+                                                                                                            <i>Lorem
+                                                                                                                ipsum
+                                                                                                                dolor
+                                                                                                                sit amet
+                                                                                                                consectetur
+                                                                                                                adipisicing
+                                                                                                                elit.Eligendi
+                                                                                                                tenetur
+                                                                                                                nobis</i>
+                                                                                                        </p>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="col-md-9">
+                                                                                                <div
+                                                                                                    class="connect-check">
+                                                                                                    <h3>
+                                                                                                        <stong>Connect
+                                                                                                            Us</stong>
+                                                                                                    </h3>
+                                                                                                    <p>
+                                                                                                        <strong>Address</strong><i>
+                                                                                                            :: 3556
+                                                                                                            Beech
+                                                                                                            Street, San
+                                                                                                            Francisco<br>
+                                                                                                            California,
+                                                                                                            CA
+                                                                                                            94108</i><br>
+                                                                                                        <strong>Phone</strong>::
+                                                                                                        <i>+1 315 369
+                                                                                                            5943</i>
+                                                                                                        <br>
+                                                                                                        <strong>Email</strong>
+                                                                                                        <i>::
+                                                                                                            mnnit.ac.in</i>
+                                                                                                    </p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                                <div class="footer-bottom">
+                                                                                    <h6 class="last-part">
+                                                                                        <strong> @2021 Medicare All
+                                                                                            right Reserved <br>
+                                                                                            Designed And mantained by
+                                                                                            MNNIT!!
+                                                                                        </strong>
+                                                                                        <hr
+                                                                                            style="height:2px;border-width:0;color:gray;background-color:gray">
+                                                                                    </h6>
+                                                                                </div>
+                                                                            </footer>
+</body>
+
+</html>

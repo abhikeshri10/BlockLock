@@ -1,0 +1,43 @@
+{
+  "name": "medicure",
+  "version": "1.0.0",
+  "description": "Avishkar 2021 ( Webster) Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prat2404/MediCure.git"
+  },
+  "author": "Abhishek Keshri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Prat2404/MediCure/issues"
+  },
+  "homepage": "https://github.com/Prat2404/MediCure#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-validator": "^6.12.2",
+    "gravatar": "^1.8.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongodb": "^4.2.2",
+    "mongoose": "^6.0.10",
+    "multer": "^1.4.4",
+    "multer-gridfs-storage": "^5.0.2",
+    "request": "^2.88.2",
+    "sha1": "^1.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.13"
+  }
+}

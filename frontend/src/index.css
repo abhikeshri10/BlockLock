@@ -1,0 +1,57 @@
+#root {
+  display: block;
+  margin: 0%;
+  padding: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  border-color: aqua;
+  height: 100%;
+}
+.last-part {
+  justify-content: center;
+  float: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.connect-check {
+  justify-content: right;
+  float: right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.face {
+  width: 4px;
+  height: 4px;
+}
+html,
+body {
+  height: 100%;
+}
+.supporting-evidence {
+  list-style-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20version%3D%221.1%22%20viewBox%3D%220%200%2010%2010%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%220%22%20fill%3D%22%231ac98e%22%20stroke%3D%22%231ac98e%22%3E%3Cpath%20d%3D%22M6%2010V4h3L5%200%201%204h3v6%22/%3E%3C/svg%3E');
+}
+.conflicting-evidence {
+  list-style-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20version%3D%221.1%22%20viewBox%3D%220%200%2010%2010%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%220%22%20fill%3D%22%23ff6a67%22%20stroke%3D%22%23ff6a67%22%3E%3Cpath%20d%3D%22M4%200v6H1l4%204%204-4H6V0z%22/%3E%3C/svg%3E');
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  /* background-color: #a3a3a3; */
+  padding: 10px;
+}
+.grid-container > div {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-row-container > div {
+  display: 'flex';
+  flex-direction: 'row';
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+.grid-item {
+  padding: '10px';
+}

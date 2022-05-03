@@ -1,0 +1,27 @@
+import React from 'react';
+import { Redirect, Route } from 'react-router-dom';
+import DoctorLayout from '../components/Doctor/DoctorLayout';
+import Auth from './Auth';
+
+const PrivateDoctorRoute = ({ component: Component, ...rest }) => {
+  const check = () => {
+    return Auth.loggedIn() && Auth.isdoctor();
+  };
+  return (
+    // Show the component only when the user is logged in
+    // Otherwise, redirect the user to /signin page
+    <Route
+      {...rest}
+      render={(props) =>
+        check() ? (
+          <DoctorLayout>
+            <Component {...props} />
+          </DoctorLayout>
+        ) : (
+          <Redirect to='/doctor/' />
+        )
+      }
+    />
+  );
+};
+export default PrivateDoctorRoute;

@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  position: relative;
+}
+body {
+  margin: 0;
+  padding-top: 40px;
+  color: #2e323c;
+  background: #f5f6fa;
+  position: relative;
+  height: 100%;
+}
+.account-settings .user-profile {
+  margin: 0 0 1rem 0;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.account-settings .user-profile .user-avatar {
+  margin: 0 0 1rem 0;
+}
+.account-settings .user-profile .user-avatar img {
+  width: 90px;
+  height: 90px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
+.account-settings .user-profile h5.user-name {
+  margin: 0 0 0.5rem 0;
+}
+.account-settings .user-profile h6.user-email {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #9fa8b9;
+}
+.account-settings .about {
+  margin: 2rem 0 0 0;
+  text-align: center;
+}
+.account-settings .about h5 {
+  margin: 0 0 15px 0;
+  color: #007ae1;
+}
+.account-settings .about p {
+  font-size: 0.825rem;
+}
+.form-control {
+  border: 1px solid #cfd1d8;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 0.825rem;
+  background: #ffffff;
+  color: #2e323c;
+}
+
+.card {
+  background: #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 1rem;
+}
+.appointment {
+  display: flex;
+  flex-direction: column;
+}
+.supporting-evidence {
+  list-style-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20version%3D%221.1%22%20viewBox%3D%220%200%2010%2010%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%220%22%20fill%3D%22%231ac98e%22%20stroke%3D%22%231ac98e%22%3E%3Cpath%20d%3D%22M6%2010V4h3L5%200%201%204h3v6%22/%3E%3C/svg%3E');
+}
+.conflicting-evidence {
+  list-style-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20version%3D%221.1%22%20viewBox%3D%220%200%2010%2010%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%220%22%20fill%3D%22%23ff6a67%22%20stroke%3D%22%23ff6a67%22%3E%3Cpath%20d%3D%22M4%200v6H1l4%204%204-4H6V0z%22/%3E%3C/svg%3E');
+}
